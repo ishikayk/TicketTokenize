@@ -1,0 +1,53 @@
+.concert-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/concert.jpg");
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover;
+  }
+
+  .sports-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/sports.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .show-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/show.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
