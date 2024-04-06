@@ -1,0 +1,76 @@
+
+h1{
+  color: #86C232;
+  font-size: 100px;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: -2em;
+}
+
+h3{
+  font-size: 60px;
+  color: #86C232;
+}
+
+.home-hero{
+  display: flex;
+  height: 100vh;
+  width: 98vw;
+  background-image: url(..\assets\Logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.market-hero{
+  display: flex;
+  height: 100vh;
+  width: 98vw;
+  background-image: url(..\assets\markethero.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.buy-hero{
+  display: flex;
+  height: 100vh;
+  width: 98vw;
+  background-image: url(..\assets\buyhero.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+.event-info{
+  width: 60%;
+  margin-left: 200px;
+}
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
