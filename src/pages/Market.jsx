@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import MarketCard from '../components/MarketCard';
 import { Box, FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 
@@ -9,16 +10,16 @@ const Market = () => {
 
  
   const marketCardData = [
-    { eventname: 'Concert', type: 'concert', user: 'nilay', location: 'Chennai', cost: "$500" },
-    { eventname: 'Concert', type: 'concert', user: 'aditya', location: 'Chennai', cost: "$500" },
-    { eventname: 'Sports', type: 'sports', user: 'ishika', location: 'Chennai', cost: "$500" },
-    { eventname: 'Sports', type: 'sports', user: 'nilay', location: 'Chennai', cost: "$500" },
-    { eventname: 'Show', type: 'show', user: 'ishika', location: 'Chennai', cost: "$250" },
-    { eventname: 'Sports', type: 'sports', user: 'ishika', location: 'Chennai', cost: "$5000" },
-    { eventname: 'Concert', type: 'concert', user: 'nilay', location: 'Chennai', cost: "$500" },
-    { eventname: 'Sports', type: 'sports', user: 'aditya', location: 'Chennai', cost: "$300" },
-    { eventname: 'Sports', type: 'sports', user: 'ishika', location: 'Chennai', cost: "$500" },
-    { eventname: 'Show', type: 'show', user: 'aditya', location: 'Chennai', cost: "$500" }
+    { eventname: 'The Lead Pipes', type: 'concert', user: 'nilay', location: 'Chennai', cost: "$500" },
+    { eventname: 'Evolution', type: 'concert', user: 'aditya', location: 'Chennai', cost: "$500" },
+    { eventname: 'PBKS vs RCB', type: 'sports', user: 'ishika', location: 'Chennai', cost: "$500" },
+    { eventname: 'CSK vs GT', type: 'sports', user: 'nilay', location: 'Chennai', cost: "$500" },
+    { eventname: 'Matrix', type: 'show', user: 'ishika', location: 'Chennai', cost: "$250" },
+    { eventname: 'LAC vs BRO', type: 'sports', user: 'ishika', location: 'Chennai', cost: "$5000" },
+    { eventname: 'The Beatles', type: 'concert', user: 'nilay', location: 'Chennai', cost: "$500" },
+    { eventname: 'HUN vs TIG', type: 'sports', user: 'aditya', location: 'Chennai', cost: "$300" },
+    { eventname: 'Kings vs LA', type: 'sports', user: 'ishika', location: 'Chennai', cost: "$500" },
+    { eventname: 'Blade Runner', type: 'show', user: 'aditya', location: 'Chennai', cost: "$500" }
   ];
 
 
@@ -39,14 +40,15 @@ const Market = () => {
   return (
     <section>
       <div>
-        <section className='market-hero'>
-          <div className='hero-content'></div>
+        <section className='market-hero' style={{display: 'flex', alignItems: 'flex-start'}}>
+            <h1 style={{marginTop: '90px', color: 'white', fontSize: '100px', fontWeight: '700'}}>Marketplace</h1>
         </section>
         <h2>Buy tickets here</h2>
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
           <FormControl style={{ margin: '10px', width: '200px' }}>
             <InputLabel id="sort-order-label" style={{color:'white'}}>Price</InputLabel>
             <Select
+            style={{color:'white'}}
               labelId="sort-order-label"
               id="sort-order"
               value={sortOrder}
@@ -59,6 +61,7 @@ const Market = () => {
           <FormControl style={{ margin: '10px', width: '200px' }}>
             <InputLabel id="event-type-label" style={{color:'white'}}>Type</InputLabel>
             <Select
+              style={{color:'white'}}
               labelId="event-type-label"
               id="event-type"
               value={eventType}
@@ -73,6 +76,7 @@ const Market = () => {
           <FormControl style={{ margin: '10px', width: '200px' }}>
             <InputLabel id="event-type-label" style={{color:'white'}}>City</InputLabel>
             <Select
+            style={{color:'white'}}
               labelId="event-type-label"
               id="event-type"
               value={eventType}
@@ -87,14 +91,16 @@ const Market = () => {
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
             {sortedMarketCardData.map((card, index) => (
+              <Link to={`/pay`} style={{ textDecoration: 'none', color: 'inherit' }}>
               <MarketCard
-                key={index}
-                eventname={card.eventname}
-                type={card.type}
-                user={card.user}
-                location={card.location}
-                cost={card.cost}
+                  key={index}
+                  eventname={card.eventname}
+                  type={card.type}
+                  user={card.user}
+                  location={card.location}
+                  cost={card.cost}
               />
+              </Link>
             ))}
           </div>
       </div>
