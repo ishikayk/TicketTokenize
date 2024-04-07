@@ -16,8 +16,9 @@ import { Link, useLocation } from "react-router-dom";
 
 const PAGES = [
   { name: "Home", path: "/" },
-  { name: "Buy", path: "/buy" },
+  { name: "About", path: "/aboutus" },
   { name: "Marketplace", path: "/market" },
+  { name: "Organise an event", path: "/organise" },
 ];
 
 const Header = () => {
@@ -70,7 +71,6 @@ const Header = () => {
                     </Link>
                   ))}
                 </Tabs>
-                <Button href="chrome-extension://ejjladinnckdgjemekebdpeokbikhfci/onboarding.html">Link Wallet</Button>
             </Box>
           </Toolbar>
         </AppBar>

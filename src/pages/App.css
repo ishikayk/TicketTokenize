@@ -64,4 +64,12 @@ h3{
   background-repeat: no-repeat;
   background-position: center;
 }
+
+label{
+  color: white;
+}
+
+input{
+  width: 70%;
+}
 /*--------------------------------------------------------------------------------------------*/
