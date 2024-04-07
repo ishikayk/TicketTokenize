@@ -43,7 +43,7 @@ const Market = () => {
         <section className='market-hero' style={{display: 'flex', alignItems: 'flex-start'}}>
             <h1 style={{marginTop: '90px', color: 'white', fontSize: '100px', fontWeight: '700'}}>Marketplace</h1>
         </section>
-        <h2>Buy tickets here</h2>
+        <h2 style={{color:'white', marginBottom: '50px'}}>Buy tickets here</h2>
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
           <FormControl style={{ margin: '10px', width: '200px' }}>
             <InputLabel id="sort-order-label" style={{color:'white'}}>Price</InputLabel>
