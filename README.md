@@ -12,3 +12,5 @@ Upon purchase, each ticket transforms into a fungible token, ensuring authentici
 In cases of genuine emergencies or unavailability, users have the option to sell their fungible tokens, transferring ownership to a buyer after a validated purchase. We've meticulously studied potential loopholes and fraud mechanisms, implementing a mechanism to prevent duplicate transaction IDs. Each transaction is directly mapped to the sender's address, ensuring secure transactions and accurate record-keeping. Event managers receive precise transaction records, which can be used for verification during the respective event.
 
 Join us as we redefine the ticketing experience with Apticket and revolutionize the way you experience entertainment
+
+Because of Hardware Issues, we couldn't implement the blockchain part of our site. The code is ready and available to view in src/opend.
