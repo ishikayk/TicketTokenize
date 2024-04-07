@@ -46,7 +46,7 @@ const Header = () => {
                     justifyContent: "center",
                     alignItems: "center",
                     "& .MuiTabs-indicator": {
-                      backgroundColor: "#b01e05",
+                      backgroundColor: "#0f9b0f",
                       height: 2,
                       borderRadius: "30px", 
                     },
@@ -62,7 +62,7 @@ const Header = () => {
                         label={page.name}
                         value={index}
                         sx={{
-                          color: index === activeTab ? "#e4b023" : "white",
+                          color: index === activeTab ? "#0f9b0f" : "white",
                           borderRadius: "5px",
                         }}
                         disableRipple
@@ -70,6 +70,7 @@ const Header = () => {
                     </Link>
                   ))}
                 </Tabs>
+                <Button href="chrome-extension://ejjladinnckdgjemekebdpeokbikhfci/onboarding.html">Link Wallet</Button>
             </Box>
           </Toolbar>
         </AppBar>

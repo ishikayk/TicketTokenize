@@ -1,4 +1,4 @@
-.concert-card {
+  .LA-card {
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -7,16 +7,15 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid hsl(0, 0%, 80%);
     border-radius: 30px;
     max-width: 189px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/concert.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/BB1.png");
     background-repeat: no-repeat;
     background-position: center;  
     background-size: cover;
   }
 
-  .sports-card {
+  .Evolution-card {
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -25,16 +24,15 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid hsl(0, 0%, 80%);
     border-radius: 30px;
     max-width: 189px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/sports.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/evo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  .show-card {
+  .Matrix-card {
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -43,10 +41,128 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid hsl(0, 0%, 80%);
     border-radius: 30px;
     max-width: 189px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/show.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/matrix.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .Beatles-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/beatles.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .BRO-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/BB2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .Pipes-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/TLP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .TIG-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/Rug.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .GT-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/IPL2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .Runner-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/br2049.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .RCB-card {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    margin: 10px 40px 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 189px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/IPL1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

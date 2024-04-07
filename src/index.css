@@ -1,10 +1,10 @@
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;
-
+  font-weight: 600;
   color-scheme: light dark;
   color: aliceblue;
-  background-color: #1e1e1e;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,4 +17,5 @@ body {
   padding: 0;
   border: 0;
   outline: none;
+  background-color: black;
 }
